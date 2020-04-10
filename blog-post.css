@@ -1,0 +1,106 @@
+@font-face{
+  font-family: cdreams;
+  src: url(/fonts/CaviarDreams.ttf);
+  }
+@font-face{
+  font-family: autog;
+  src: url(/fonts/Autography.otf);
+  }
+@font-face{
+  font-family: geosans;
+  src: url(/fonts/GeosansLight.ttf);
+  }
+
+.container{
+    display: grid;
+    grid-template-columns: 100% 20% 100% ;
+    grid-template-rows: 220px  850px 200px;
+    grid-template-areas: 
+    "hd"
+    "main"
+    "ft";
+}
+.title{
+    text-align: center;
+    font-family: autog, sans-serif;
+}
+h1{
+  font-size: 45px;
+  line-height: 0.2em;
+}
+.text{
+  font-family: geosans, sans-serif;
+}
+  .logo{
+    width: 220px;
+    height: 120px;
+    margin: 10px 10px;
+    background-image: url(/images/DevWhatLogo-nobk.png);
+    background-size: inherit;
+    background-color: #fd5da3;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .top-nav-bar{
+    display: inline-flex;
+  }
+  .button{
+    margin: 0px 10px;
+    padding: 10px;
+    background-color: turquoise;
+    border-radius: 6px;
+    font-family: cdreams, geosans, sans-serif;
+    font-size: 0.7em;
+  }
+  .header{
+    grid-area:hd;
+    display: inline;
+    text-align: center;
+    background-image: url(/images/wtfidkemoji-multi-row.png);
+    background-size: 200px;
+    background-repeat: round;
+    margin: 10px;
+  }
+  .horizline{
+    width: 100%;
+    height: 25px;
+    background-image: url(/images/wtfidkemoji-gray.png);
+    background-size: 20px;
+    background-repeat: round;
+  }
+  .content{
+    grid-area: main;
+    padding: 5px;
+  }
+  .blog-post-link{
+    display: list-item;
+    list-style-type: none;
+    margin-left: 20px;
+  }
+
+  .footer{
+    grid-area: ft;  
+  }
+
+  @media(min-width:900px){
+    .container{
+          display:grid;
+          grid-template-columns: 100px 200px 300px;
+          grid-template-rows: 200px 400px 200px;
+          grid-template-areas: 
+          "hd hd hd hd hd hd hd hd"
+          "main main main main main main main main"
+          "ft ft ft ft ft ft ft ft";
+      }
+    .logo{
+          margin: 20px 20px;
+      }
+      .top-nav-bar{
+        display: inline-flex;
+      }
+    .nav-bar-button{
+        display: inline-flex;
+        margin: 10px 30px;
+        padding: 10px;
+    }
+  }

@@ -1,0 +1,107 @@
+/*fonts*/
+@font-face{
+    font-family: cdreams;
+    src: url(/fonts/CaviarDreams.ttf);
+    }
+@font-face{
+    font-family: autog;
+    src: url(/fonts/Autography.otf);
+    }
+@font-face{
+    font-family: geosans;
+    src: url(/fonts/GeosansLight.ttf);
+    }
+/*header settings*/    
+h1{
+  font-size: 50px;
+}
+h2{
+    font-size: 45px;
+}
+h3{
+    font-size: 40px;
+}
+h4{
+  font-size: 35px;
+}
+h5{
+    font-size: 30px;
+}
+h6{
+  font-size: 25px;
+}  
+.title, .card-title{
+    font-family: autog, sans-serif;
+}  
+/*color scheme*/
+.color-block{
+    display: grid;
+    grid-template-columns: repeat(3, 35px);
+}
+.block{
+    width: 50px;
+    height: 50px;
+    border-radius: 20%;
+    margin: 5px;
+}
+.purple1{
+    background-color:#171B8C;
+}
+.purple2{
+    background-color:#4A4EBF;
+}
+.purple3{
+    background-color: #7D81F2;
+}
+.blue1{
+    background-color:#00c5bb;
+}
+.blue2{
+    background-color:#33F8EE;
+}
+.blue3{
+    background-color: #66FFFF;
+}
+.green1{
+    background-color:#C0F561;
+}
+.green2{
+    background-color:#DAFF7B;
+}
+.green3{
+    background-color: #F3FF94;
+}
+.pink1{
+    background-color:#FD5DA3;
+}
+.pink2{
+    background-color:#FF77BD;
+}
+.pink3{
+    background-color: #FF90D6;
+}
+.yellow1{
+    background-color:#FFDB00;
+}
+.yellow2{
+    background-color:#FFF51A;
+}
+.yellow3{
+    background-color: #FFFF33;
+}
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(192, 245, 97, 1);
+    transition: 0.3s;
+    height:350px;
+    width: 250px;
+    margin-top: 10px;
+    border-radius: 1em;
+}
+.card-img{
+    width: 250px;
+    height: 200px;
+    border-radius: 5%;
+}
+
+
