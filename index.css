@@ -133,7 +133,6 @@ h6{
   .content{
     grid-area: main;
     padding: 5px;
-    /*background: rgba(23, 27, 140, 0.1);*/
   }
   .blog-post-link{
     display: list-item;
